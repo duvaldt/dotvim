@@ -5,7 +5,7 @@ This is how I have vim configured
 ## Installation
 
 > cd # go to your home folder <br/>
-> git clone git@github.com:/jonasbro/dotvim.git ~/.vim # clone repo into .vim
+> git clone git@github.com:/duvaldt/dotvim.git ~/.vim # clone repo into .vim
 
 ## Create symlinks
 
@@ -20,7 +20,7 @@ This is how I have vim configured
 
 ## Install dependencies
 
-> sudo aptitude install exuberant-ctags
+> sudo apt-get install exuberant-ctags
 
 ## Update bundles
 
