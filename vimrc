@@ -226,7 +226,7 @@ let g:CodeReviewer_reviewFile=$HOME . "/code_review_JB.rev"
 syntax on
 
 " When ANSI 16 not used
-" let g:solarized_termcolors=256
+let g:solarized_termcolors=256
 
 " Color scheme
 set background=dark
@@ -236,8 +236,8 @@ colorscheme solarized
 nmap <leader>v :tabedit $MYVIMRC<CR>
 
 " Highlight lines that are too long
-highlight OverLength ctermbg=darkgray ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+"highlight OverLength ctermbg=darkgray ctermfg=white guibg=#592929
+"match OverLength /\%81v.\+/
 
 " remember some stuff after quiting vim:
 " marks, registers, searches, buffer list
